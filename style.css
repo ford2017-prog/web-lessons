@@ -52,6 +52,6 @@ ol > li:before{
 
 body {
     background-image: url(img/back.jpg);
-    background-color: rgb(153, 215, 218);
+    background: rgb(153, 215, 218);
 }
 
