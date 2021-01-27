@@ -50,3 +50,7 @@ ol > li:before{
     color: #dddddd;
 }
 
+body {
+    background-image: url(img/back.jpg);
+}
+
