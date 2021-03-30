@@ -1,0 +1,16 @@
+.avatar {
+    margin-right: 1200px;
+    border: 1px solid lightgrey;
+    display: inline-block;
+}
+
+.avatar img {
+    float: left;
+    height: 180px;
+    margin-right: 100px;
+}
+
+.avatar p {
+    margin: 10px;
+    border: 1px solid lightgrey;
+}
