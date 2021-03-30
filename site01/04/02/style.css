@@ -1,16 +1,49 @@
-.avatar {
-    margin-right: 1200px;
-    border: 1px solid lightgrey;
-    display: inline-block;
-}
-
-.avatar img {
-    float: left;
-    height: 180px;
-    margin-right: 100px;
-}
-
-.avatar p {
-    margin: 10px;
-    border: 1px solid lightgrey;
-}
+    .block {
+        display: inline-block;
+        float: left;
+        border: 3px solid lightgrey;
+        border-radius: 10px;
+    }
+    
+    .avatar img {
+        border-radius: 50%;
+        height: 200px;
+        float: left;
+        margin-top: 20px;
+    }
+    
+    .gradient {
+        border: 3px solid lightgrey;
+        float: left;
+        padding: 30px;
+        margin: 20px;
+    }
+    
+    .line1 {
+        height: 20px;
+        width: 120px;
+        background: linear-gradient(to right, rgb(200, 198, 198), rgb(126, 126, 126));
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .line2 {
+        margin-top: 20px;
+        height: 20px;
+        width: 200px;
+        background: linear-gradient(to right, rgb(200, 198, 198), rgb(126, 126, 126));
+    }
+    
+    .line3 {
+        margin-top: 20px;
+        height: 20px;
+        width: 200px;
+        background: linear-gradient(to right, rgb(200, 198, 198), rgb(126, 126, 126));
+    }
+    
+    .line4 {
+        margin-top: 20px;
+        height: 20px;
+        width: 200px;
+        background: linear-gradient(to right, rgb(200, 198, 198), rgb(126, 126, 126));
+    }
