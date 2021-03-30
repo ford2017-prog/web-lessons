@@ -1,31 +1,31 @@
-
 .page {
-    
-    background: #222831;
-    box-shadow: 0 5px 0 #6c7483;
-    color:#dddddd;
-    border-radius: 10px;
-    border: 10px solid #222831;
-    margin-top: 20px;
-    margin-bottom:20px;
+    background: #276678;
+    box-shadow: 0 5px 10px #0a043c;
+    color: #dddddd;
+    border: 10px solid #276678;
 }
 
 .info {
     margin-left: 100px;
     margin-right: 100px;
-    background: #30475e;
-    box-shadow: 0 5px 0 #546575;
-    color:#dddddd;
+    background: #1687a7;
+    box-shadow: 0 7px 10px #aee1e1;
+    color: #dddddd;
     border-radius: 10px;
     text-indent: 30px;
     margin-top: 20px;
-    margin-bottom:20px;
-    border: 10px solid #30475e;
+    margin-bottom: 20px;
+    border: 10px solid #1687a7;
     font-size: 20px;
 }
 
 .up {
-    text-align:center;
+    text-align: center;
+}
+
+.up img {
+    border-radius: 50%;
+    height: 200px;
 }
 
 .down {
@@ -37,21 +37,23 @@
     margin-right: 100px;
 }
 
-ol > li{
+ol>li {
     list-style: none;
     padding-left: 20px;
     position: relative;
     margin: 5px;
 }
 
-ol > li:before{
+ol>li:before {
     content: '✔';
-    position: absolute; top: 0; left: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
     color: #dddddd;
 }
 
 body {
-    background-image: url(img/back.jpg);
-    background: rgb(153, 215, 218);
+    background: #f8f1f1;
+    margin: 0;
+    padding: 0;
 }
-
