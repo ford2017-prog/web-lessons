@@ -58,17 +58,18 @@ body {
 }
 
 .conteiner img {
-    height: 165px;
+    height: 155px;
     margin: 0;
     padding: 0;
     border-radius: 5px;
     border: 2px solid rgb(63, 121, 187);
+    display: flex;
 }
 
 .conteiner {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .block3 h1 {
@@ -80,6 +81,7 @@ body {
     border-radius: 11px;
     text-align: center;
     text-indent: 0;
+    margin: 15px;
 }
 
 .conteiner figure:hover {
