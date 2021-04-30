@@ -1,21 +1,20 @@
 .page {
-    background: #456a9b;
-    box-shadow: 0 5px 10px #0a043c;
+    background: #15353f;
+    box-shadow: 0 4px 14px #17114b;
     color: #dddddd;
-    border: 10px solid #456a9b;
+    border: 10px solid #15353f;
 }
 
 .info {
     margin-left: 100px;
     margin-right: 100px;
-    background: #1687a7;
-    box-shadow: 0 7px 10px #aee1e1;
+    background: #525a5d;
+    box-shadow: 0 7px 10px #45526c;
     color: #dddddd;
     border-radius: 10px;
-    text-indent: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
-    border: 10px solid #1687a7;
+    border: 10px solid #525a5d;
     font-size: 20px;
 }
 
@@ -53,7 +52,36 @@ ol>li:before {
 }
 
 body {
-    background: #f8f1f1;
+    background: #393e46;
     margin: 0;
     padding: 0;
+}
+
+.conteiner img {
+    height: 165px;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    border: 2px solid rgb(63, 121, 187);
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.block3 h1 {
+    text-align: center;
+}
+
+.conteiner figure {
+    border: 3px solid rgb(63, 121, 187);
+    border-radius: 11px;
+    text-align: center;
+    text-indent: 0;
+}
+
+.conteiner figure:hover {
+    border: 3px solid rgb(117, 45, 211);
 }
