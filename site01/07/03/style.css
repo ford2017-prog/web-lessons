@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.big {
+    display: flex;
+    height: 500px;
+}
+
+.small {
+    display: flex;
+}
+
+a {
+    font-size: 30px;
+}
+
+.m1 {
+    flex-direction: column;
+    height: 500px;
+    width: 100vh;
+}
+
+.m2 {
+    flex-direction: row;
+}
+
+.p1:hover {
+    order: 5;
+}
+
+.p1 {
+    order: 1;
+}
+
+.p2 {
+    order: 2;
+}
+
+.p3 {
+    order: 3;
+}
+
+.p4 {
+    order: 4;
+}
