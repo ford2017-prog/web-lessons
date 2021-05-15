@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        calculator();
+        
+        function calculator (){
+            let result;
+            let num_1;
+            let num_2;
+            let operation;
+            
+            if (num_1 = InNum()){
+                if(operation = ShowOperatoin()) {
+                    if(num_2 = InNum(2, operation)){
+                        result = ShowResult(num_1, num_2, operation);
+                        alert(result);
+                }
+            }
+        }
+            
+
+            /*if(num_1 != null) {
+                operation = ShowOperatoin();
+            }
+
+            if(operation != null) {
+                num_2 = InNum(2, operation);
+            }
+
+            if(num_2 != null){
+                result = ShowResult(num_1, num_2, operation);
+                alert(result);
+            }*/
+
+            
+        }
+
+
+        function ShowOperatoin (operation){
+            
+            do {
+                let operation = prompt("Введите операцию: ");
+                
+                if (operation == '+' || operation == '-' || operation == '*' || operation == '/' || operation == null){
+                    return operation;
+                    break;
+                }
+                
+                alert('Произошла ошибка, не верное действие, введите его снова');
+            }while(true)
+
+            
+        }
+
+        function ShowResult (num_1, num_2, operation){
+
+            let result;
+
+            switch (operation) {
+                case '+':
+                result = +num_1 + +num_2;
+                break;
+                case '-':
+                result = +num_1 - +num_2;
+                break;
+                case '/':
+                result = +num_1 / +num_2;
+                break;
+                case '*':
+                result = +num_1 * +num_2;
+                break;
+        
+                default:
+                    alert('Произошла ошибка');
+                break;
+            }
+
+            return result;
+        }
+
+        function InNum(countNum, operation){
+
+            let num;
+
+            do{
+                num = prompt("Введите число: ");
+                
+                if (((!parseInt(num) && num != 0) || (countNum > 1 && num == 0 &&  operation == '/')) && num != null){
+                    
+                    alert("Ошибка ввода данных!");
+                }
+                else {
+                    break;
+                }
+
+            }while(true)
+            return num;
+        }
+        
+        
+    </script>
+</body>
+</html>
