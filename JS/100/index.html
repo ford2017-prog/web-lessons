@@ -93,15 +93,22 @@
 
             do {
                 num = prompt("Введите число: ");
-
-                if (((!parseInt(num) && num != 0) || (countNum > 1 && num == 0 && operation == '/') || num == '') && num != null) {
+                if (((!parseInt(num) && num > 0 && num < 0) || (countNum > 1 && num == 0 && operation == '/') || num == '') && num != null) {
 
                     alert("Ошибка ввода данных!");
+                } else if (isNaN(+num)) {
+
+                    num = num.replace(",", ".");
+
+                    if (!isNaN(+num)) {
+                        break;
+                    } else alert("Ошибка ввода данных!");
                 } else {
                     break;
                 }
 
-            } while (true)
+            }
+            while (true)
             return num;
         }
     </script>
